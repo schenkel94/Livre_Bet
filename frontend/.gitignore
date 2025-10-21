@@ -1,6 +1,3 @@
-# Arquivos sensíveis
-leads_mockup.json
-
 # Dependências e logs
 /node_modules
 npm-debug.log*
