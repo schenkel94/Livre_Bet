@@ -13,9 +13,15 @@
 	"engines": {
 		"node": ">=10"
 	},
+	
 	"scripts": {
-		"test": "xo && nyc ava && tsd"
-	},
+    "start": "craco start",
+    // ESTA LINHA DEVE SER AJUSTADA/ADICIONADA:
+    "build": "craco build", 
+	//"test": "xo && nyc ava && tsd",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
 	"files": [
 		"index.js",
 		"index.d.ts"
